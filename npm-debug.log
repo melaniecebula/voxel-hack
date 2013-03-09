@@ -1,0 +1,41 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/bin/npm', 'start' ]
+info using npm@1.1.4
+info using node@v0.6.12
+verbose config file /home/melanie/.npmrc
+verbose config file /usr/etc/npmrc
+verbose config file /usr/share/npm/npmrc
+verbose caching /home/melanie/voxel-hack/package.json
+verbose loadDefaults voxel-hack@0.0.0
+verbose run-script [ 'prestart', 'start', 'poststart' ]
+info prestart voxel-hack@0.0.0
+info start voxel-hack@0.0.0
+verbose unsafe-perm in lifecycle true
+silly exec sh "-c" "echo \"open localhost:8080/\" && ./node_modules/.bin/browservefy index.js 8080 -- -d"
+silly spawning [ 'sh',
+silly spawning   [ '-c',
+silly spawning     'echo "open localhost:8080/" && ./node_modules/.bin/browservefy index.js 8080 -- -d' ],
+silly spawning   '/home/melanie/voxel-hack' ]
+info voxel-hack@0.0.0 Failed to exec start script
+ERR! voxel-hack@0.0.0 start: `echo "open localhost:8080/" && ./node_modules/.bin/browservefy index.js 8080 -- -d`
+ERR! `sh "-c" "echo \"open localhost:8080/\" && ./node_modules/.bin/browservefy index.js 8080 -- -d"` failed with 1
+ERR! 
+ERR! Failed at the voxel-hack@0.0.0 start script.
+ERR! This is most likely a problem with the voxel-hack package,
+ERR! not with npm itself.
+ERR! Tell the author that this fails on your system:
+ERR!     echo "open localhost:8080/" && ./node_modules/.bin/browservefy index.js 8080 -- -d
+ERR! You can get their info via:
+ERR!     npm owner ls voxel-hack
+ERR! There is likely additional logging output above.
+ERR! 
+ERR! System Linux 3.2.0-38-generic
+ERR! command "node" "/usr/bin/npm" "start"
+ERR! cwd /home/melanie/voxel-hack
+ERR! node -v v0.6.12
+ERR! npm -v 1.1.4
+ERR! code ELIFECYCLE
+ERR! message voxel-hack@0.0.0 start: `echo "open localhost:8080/" && ./node_modules/.bin/browservefy index.js 8080 -- -d`
+ERR! message `sh "-c" "echo \"open localhost:8080/\" && ./node_modules/.bin/browservefy index.js 8080 -- -d"` failed with 1
+ERR! errno {}
+verbose exit [ 1, true ]
